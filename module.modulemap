@@ -1,0 +1,7 @@
+
+module CCurl [system] {
+    header "/usr/include/curl/curl.h"
+    header "curlext.h"
+    link "curl"
+    export *
+}
